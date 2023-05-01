@@ -23,7 +23,8 @@
 		by Rishit Viral, Samuel Preston, Ben Kye, Naja-Lee Habboush, Daniel Nguyen, and Soumika Seelam.
 	</p>
 	<p>
-		Read about our research <a href="{base}/researchposter.pdf" target="_blank">here</a>.
+		Read about our research <a href="{base}/researchposter.pdf" target="_blank">here</a>,
+		and view the source code <a href="https://github.com/ACM-Research/IoTSecurityVulnerabilities" target="_blank">here</a>.
 	</p>
 </main>
 
