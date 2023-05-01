@@ -1,12 +1,8 @@
-<script lang="ts">
-	import { base } from '$app/paths';
-</script>
-
 <header class="container">
 	<h1>Bangle Wrangler</h1>
-	<a href="{base}/repl" role="button">Access REPL</a>
-	<a href="{base}/ping" role="button">Ping Test</a>
-	<a href="{base}/worm" role="button">Worm</a>
+	<a href="repl" role="button">Access REPL</a>
+	<a href="ping" role="button">Ping Test</a>
+	<a href="worm" role="button">Worm</a>
 </header>
 
 <main class="container">
@@ -23,7 +19,7 @@
 		by Rishit Viral, Samuel Preston, Ben Kye, Naja-Lee Habboush, Daniel Nguyen, and Soumika Seelam.
 	</p>
 	<p>
-		Read about our research <a href="{base}/researchposter.pdf" target="_blank">here</a>,
+		Read about our research <a href="researchposter.pdf" target="_blank">here</a>,
 		and view the source code <a href="https://github.com/ACM-Research/IoTSecurityVulnerabilities" target="_blank">here</a>.
 	</p>
 </main>
