@@ -1,6 +1,16 @@
 # Finding Security Vulnerabilities in IoT Devices
 
-**Rishit Viral, Samuel Preston, Ben Kye, Naja-Lee Habboush, Daniel Nguyen, and Soumika Seelam**
+Faculty Advisor: **Dr. Wei Yang**
+
+Team Lead: **Rishit Viral**
+
+Members: **Samuel Preston, Ben Kye, Naja-Lee Habboush, Daniel Nguyen, and Soumika Seelam**
+
+[View our Research Poster](./static/researchposter.pdf)
+
+[![Research Poster](./static/researchposter.png)](./static/researchposter.pdf)
+
+# Introduction
 
 As more devices become connected to the internet and integrated with our daily lives, introducing
 effective security features becomes an absolute necessity. Many of these devices hold personal
@@ -8,15 +18,11 @@ information that can be ruin lives if stolen. Even devices that appear harmless 
 can hold valuable data and are likely connected to a personal phone. That is why we decided to
 research a specific watch named the Bangle.js 2, a JavaScript-based smart watch.
 
-[View our Research Poster](./static/researchposter.pdf)
-
-[![Research Poster](./static/researchposter.png)](./static/researchposter.pdf)
+![Picture of Bangle.js 2](./static/bangle.jpg)
 
 # Project Overview
 
 Upon starting the research project, we had to first decide on an IoT device to target. We looked at a variety of devices including smart fridges, doorbells, baby monitors, smart garage door openers, etc. However, there are legal issues that can arise when pen-testing devices that are produced and owned by private companies. Eventually, we decided on the Bangle.js 2, which is described as an “open, hackable smartwatch”. Almost everything related to the watch is open source, which made working with it much easier.
-
-![Picture of Bangle.js 2](./static/bangle.jpg)
     
 After the first meeting with our professor, we were given various resources designed to analyze JavaScript scripts, since every app that runs on the watch is written in JavaScript. Two such resources were Jalangi 2 and Augur. Jalangi is a dynamic analysis framework for JS and allows the user to track various aspects of the script being targeted in order to see what might be vulnerable. Augur is a program that can perform dynamic taint analysis, which tracks data flows through a program and tries to detect possible injection vulnerabilities. Unfortunately, the apps available to Bangle.js are primitive and did not use the runtimes supported by Jalangi and Augur, so no real vulnerabilities were found with these tools.
     
