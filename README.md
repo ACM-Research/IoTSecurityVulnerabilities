@@ -6,6 +6,8 @@ Team Lead: **Rishit Viral**
 
 Members: **Samuel Preston, Ben Kye, Naja-Lee Habboush, Daniel Nguyen, and Soumika Seelam**
 
+[View our Project Website](https://acm-research.github.io/IoTSecurityVulnerabilities/)
+
 [View our Research Poster](./static/researchposter.pdf)
 
 [![Research Poster](./static/researchposter.png)](./static/researchposter.pdf)
