@@ -1,1 +1,1 @@
-# -IoTSecurityVulnerabilities
+# IoTSecurityVulnerabilities
