@@ -3,7 +3,7 @@
 </script>
 
 <header class="container">
-	<h1>What do you want to do?</h1>
+	<h1>Bangle Wrangler</h1>
 	<a href="{base}/repl" role="button">Access REPL</a>
 	<a href="{base}/ping" role="button">Ping Test</a>
 	<a href="{base}/worm" role="button">Worm</a>
